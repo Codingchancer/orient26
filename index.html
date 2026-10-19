@@ -4,30 +4,66 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Web Learning Diary – Orientation to ICT</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
     <h1>Web Learning Diary</h1>
-    <p>Orientation to ICT Engineering Studies, TAMK 2026</p>
+    <p>Orientation to ICT Engineering Studies (5G00DL86), TAMK 2026</p>
   </header>
+
+  <nav>
+    <a href="index.html" class="active">Home</a>
+    <a href="it.html">Tuni IT systems</a>
+    <a href="study.html">Study info</a>
+    <a href="excel.html">Excel</a>
+  </nav>
 
   <main>
     <section>
       <h2>About this diary</h2>
-      <p>This diary collects the topics I study and work on during the course.</p>
+      <p>This diary collects the topics I study during the Orientation to ICT
+         Engineering Studies course at TAMK. I add new pages as the course goes on.</p>
     </section>
 
     <section>
       <h2>Entries</h2>
-      <ul>
-        <li><strong>WLD 0.1</strong> – Basic HTML page, id.tuni.fi user rights,
-            Git, publishing to homepages.tuni.fi (Apache web server).</li>
-      </ul>
+      <table>
+        <tr><th>Version</th><th>Topic</th><th>Page</th></tr>
+        <tr>
+          <td>WLD 0.1</td>
+          <td>Basic HTML page, applying for user rights in id.tuni.fi, Git,
+              publishing to homepages.tuni.fi (Apache web server)</td>
+          <td>This page</td>
+        </tr>
+        <tr>
+          <td>WLP</td>
+          <td>Core Tuni IT systems</td>
+          <td><a href="it.html">it.html</a></td>
+        </tr>
+        <tr>
+          <td>WLP</td>
+          <td>Core TAMK study information</td>
+          <td><a href="study.html">study.html</a></td>
+        </tr>
+        <tr>
+          <td>WLP</td>
+          <td>Excel</td>
+          <td><a href="excel.html">excel.html</a></td>
+        </tr>
+      </table>
+    </section>
+
+    <section>
+      <h2>How this site is published</h2>
+      <figure>
+        <img src="images/git-workflow.svg"
+             alt="Diagram: files edited on my PC are committed with Git, pushed to GitHub and to the homepages.tuni.fi server, where Apache serves them as web pages">
+        <figcaption>My workflow: edit → commit → push to GitHub and homepages.tuni.fi.</figcaption>
+      </figure>
     </section>
   </main>
 
-  <footer>
-    <p>Last updated: October 2026</p>
-  </footer>
+  <footer>Last updated: October 2026</footer>
 </body>
 </html>

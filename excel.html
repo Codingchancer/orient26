@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Excel – Web Learning Diary</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Excel</h1>
+    <p>What I have practised with spreadsheets</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="it.html">Tuni IT systems</a>
+    <a href="study.html">Study info</a>
+    <a href="excel.html" class="active">Excel</a>
+  </nav>
+
+  <main>
+    <section>
+      <h2>My study plan in Excel</h2>
+      <p>For the Individual Study Plan task I built a spreadsheet that tracks my courses,
+         credits and graduation requirements. I shared it through OneDrive.</p>
+      <figure>
+        <img src="images/excel-study-plan.png"
+             alt="Screenshot of my Excel study plan with courses, credits and totals">
+        <figcaption>My study plan spreadsheet.</figcaption>
+      </figure>
+    </section>
+
+    <section>
+      <h2>Features I used</h2>
+      <table>
+        <tr><th>Feature</th><th>Example</th><th>What it does</th></tr>
+        <tr><td>SUM</td><td><code>=SUM(C2:C20)</code></td><td>Adds up all credits</td></tr>
+        <tr><td>SUMIF</td><td><code>=SUMIF(D2:D20;"Done";C2:C20)</code></td><td>Adds credits only for completed courses</td></tr>
+        <tr><td>COUNTIF</td><td><code>=COUNTIF(D2:D20;"Done")</code></td><td>Counts completed courses</td></tr>
+        <tr><td>IF</td><td><code>=IF(E2&gt;=240;"Ready";"Not yet")</code></td><td>Shows a result depending on a condition</td></tr>
+        <tr><td>Conditional formatting</td><td>Green = done, yellow = in progress</td><td>Colours cells automatically</td></tr>
+        <tr><td>Tables &amp; filters</td><td>Format as Table</td><td>Sort and filter courses by period or status</td></tr>
+        <tr><td>Charts</td><td>Progress bar / pie chart</td><td>Visualises credits completed vs. remaining</td></tr>
+      </table>
+      <p class="note">Finnish Excel uses <code>;</code> as the separator in formulas, English Excel uses <code>,</code>.</p>
+    </section>
+
+    <section>
+      <h2>What I learned</h2>
+      <p class="note">excel</p>
+    </section>
+  </main>
+
+  <footer>Last updated: October 2026</footer>
+</body>
+</html>
